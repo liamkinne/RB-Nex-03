@@ -20,7 +20,6 @@ void setup()
 
 void loop()
 {
-	// cos(counter / 100.0) * 25.0
 	mech.set(sin(counter / 100.0) * 35.0 , cos(counter / 100.0) * 35.0 , 0.0);
 	delay(400);
 	counter++;
